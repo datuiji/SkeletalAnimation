@@ -1,0 +1,1225 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		31FE645C71804F99B62E88F8 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2BBB2D37A8EB45E0A574250D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				D0678470F1644BA3B9881FFE /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				F89250355B5B4B139CC3AFF0 /* PBXTargetDependency */,
+				B02BDDD596CB4564A774EC89 /* PBXTargetDependency */,
+				CF0ADC3C19CD467AB0946280 /* PBXTargetDependency */,
+				0B70E7C9715745059EB0567D /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		4394AED303574E7FBE8C1B30 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AA7D7BD537FB4F358C710DC4 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				B21CB849434A47BCBA523424 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		01FFCF0A790F49799A0C9100 /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/thirdparty/stb/src/stb_image.cpp */ = {isa = PBXBuildFile; fileRef = DEA9337903784843B525C43B /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/thirdparty/stb/src/stb_image.cpp */; };
+		0A275F2790104E02822A151F /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/Main.cpp */ = {isa = PBXBuildFile; fileRef = EBF7F815DE2E488EA4335C02 /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/Main.cpp */; };
+		1289C75703764CA8B382F5E3 /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/shader_m.h */ = {isa = PBXBuildFile; fileRef = 8DEBAE275F0B4FD5A66329FD /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/shader_m.h */; };
+		15241007711C4094A3DC9842 /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/thirdparty/glad/include/KHR/khrplatform.h */ = {isa = PBXBuildFile; fileRef = 2DF933C7625447C1ADAB03ED /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/thirdparty/glad/include/KHR/khrplatform.h */; };
+		1D435853054445E5846F8A90 /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/model_animation.cpp */ = {isa = PBXBuildFile; fileRef = 80EA66A4E133476CBA6D0CD0 /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/model_animation.cpp */; };
+		25B04279F8544FED8092CE19 /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/thirdparty/glad/include/glad/glad.h */ = {isa = PBXBuildFile; fileRef = C362142E66D846D9A952E90E /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/thirdparty/glad/include/glad/glad.h */; };
+		279BDC2630324C9EB20B1370 /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/shader.h */ = {isa = PBXBuildFile; fileRef = 5B8FA713425B42769EED319C /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/shader.h */; };
+		2995B42ACD014DA4B5A7F979 /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/camera.h */ = {isa = PBXBuildFile; fileRef = 5A53B907D8784E168EEFE1CA /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/camera.h */; };
+		2BA12FB6B33049C890278DB2 /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/thirdparty/glad/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 741C232C743A4E7C9C87BA21 /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/thirdparty/glad/CMakeLists.txt */; };
+		2D0E444CE0124585A33FC955 /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/mesh.cpp */ = {isa = PBXBuildFile; fileRef = BFA7189AFC9E472C8066A16B /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/mesh.cpp */; };
+		415D4CC963A946A49A496278 /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/animator.cpp */ = {isa = PBXBuildFile; fileRef = C4C8010F7AA54B69AEC1B6D1 /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/animator.cpp */; };
+		42611B4C79854C71BAC55FB4 /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/model_animation.h */ = {isa = PBXBuildFile; fileRef = EA8C148BA91B4A40A02E3ED8 /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/model_animation.h */; };
+		4594DA3A4683415F8039BA17 /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/mesh.h */ = {isa = PBXBuildFile; fileRef = CE27E3C18F5649E0B12284F7 /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/mesh.h */; };
+		6415FA243B4D488A99CB1B87 /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/thirdparty/glad/src/glad.c */ = {isa = PBXBuildFile; fileRef = 10D57BE04F7C4511BA596A1D /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/thirdparty/glad/src/glad.c */; };
+		6BD06301843E4135B4AD24A4 /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/animdata.h */ = {isa = PBXBuildFile; fileRef = 07142134C52443AA97AC5FF2 /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/animdata.h */; };
+		885C17CB9CC341A0A2433070 /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/shader.cpp */ = {isa = PBXBuildFile; fileRef = 61A2A1F4E5674B10886176EE /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/shader.cpp */; };
+		89C13DE94596426A93AC5CBB /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/animation.cpp */ = {isa = PBXBuildFile; fileRef = 571167C8B5834EB4B94C9A72 /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/animation.cpp */; };
+		8C0C5119B18F4664A0EBC51F /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/animator.h */ = {isa = PBXBuildFile; fileRef = 775CCD7899124CB882ABE6E1 /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/animator.h */; };
+		91ED52A01DE3409CA04D1E12 /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/bone.h */ = {isa = PBXBuildFile; fileRef = A975645C33DA41B297765E3E /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/bone.h */; };
+		A56B5655336149EDB1B3277B /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/assimp_glm_helper.h */ = {isa = PBXBuildFile; fileRef = ED864946ABA8455484808F85 /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/assimp_glm_helper.h */; };
+		A96F8CC41D3547888BD37F50 /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 446E2D58B40542568C74085E /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/CMakeLists.txt */; };
+		AA7EFA884E8249EC95E2EC10 /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/thirdparty/stb/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = A5373865C2EF461FB2D3992C /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/thirdparty/stb/CMakeLists.txt */; };
+		B4EF3DE008144D8A9928120D /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/camera.cpp */ = {isa = PBXBuildFile; fileRef = 85FCA06793E04F599041549E /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/camera.cpp */; };
+		C6F5C16F7D54487086B4B8F1 /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/thirdparty/stb/include/stb_image.h */ = {isa = PBXBuildFile; fileRef = 4A861809C9C8497D9B735A2B /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/thirdparty/stb/include/stb_image.h */; };
+		D1082B72485943D6A8F30F5D /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/bone.cpp */ = {isa = PBXBuildFile; fileRef = 9E53EF16CF9D43199B6CCDBA /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/bone.cpp */; };
+		E18A70E97622477B9A378D4C /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/animation.h */ = {isa = PBXBuildFile; fileRef = A4C699C5277540ABB2B84EEF /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/animation.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		38059CF8E1144D13A9637659 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		6D4DA5947E634F4CAE7DD005 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		87FF894728CD4EE58D0AC5F7 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		965892DDE7CA412A8F26C502 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		45B68643EEF84192923D7900 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0AC7C3CCFD549EF82197F32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4394AED303574E7FBE8C1B30;
+			remoteInfo = ZERO_CHECK;
+		};
+		8A119EC7347E49CF9AD95A1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0AC7C3CCFD549EF82197F32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4394AED303574E7FBE8C1B30;
+			remoteInfo = ZERO_CHECK;
+		};
+		8AB874EF4152441EA5D1B724 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0AC7C3CCFD549EF82197F32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3C99F5313AD49DA99F399CD;
+			remoteInfo = glad;
+		};
+		8B7347E8A72842E2A16DB369 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0AC7C3CCFD549EF82197F32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3C99F5313AD49DA99F399CD;
+			remoteInfo = glad;
+		};
+		9B3E00C595954D179DFB8574 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0AC7C3CCFD549EF82197F32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4394AED303574E7FBE8C1B30;
+			remoteInfo = ZERO_CHECK;
+		};
+		DBF020A5C1B744D9BC9E056E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0AC7C3CCFD549EF82197F32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 162ADD8363C345A0A0CE5CF7;
+			remoteInfo = stb;
+		};
+		DE5E02164C38446DB9B16E4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0AC7C3CCFD549EF82197F32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFB68A3C8350452AA9A226B5;
+			remoteInfo = skeletal_animation;
+		};
+		E3EE218FD7F04C12AA36C269 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0AC7C3CCFD549EF82197F32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 162ADD8363C345A0A0CE5CF7;
+			remoteInfo = stb;
+		};
+		E7F42716358A44D1AFB927ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0AC7C3CCFD549EF82197F32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4394AED303574E7FBE8C1B30;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07142134C52443AA97AC5FF2 /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/animdata.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = animdata.h; path = src/animdata.h; sourceTree = SOURCE_ROOT; };
+		10D57BE04F7C4511BA596A1D /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/thirdparty/glad/src/glad.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = glad.c; path = thirdparty/glad/src/glad.c; sourceTree = SOURCE_ROOT; };
+		1B2FBC54F23342D99050AEA1 /* stb */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libstb.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D3E71F2188F462D9B4E4BF2 /* glad */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglad.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DF933C7625447C1ADAB03ED /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/thirdparty/glad/include/KHR/khrplatform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = khrplatform.h; path = thirdparty/glad/include/KHR/khrplatform.h; sourceTree = SOURCE_ROOT; };
+		446E2D58B40542568C74085E /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4A861809C9C8497D9B735A2B /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/thirdparty/stb/include/stb_image.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stb_image.h; path = thirdparty/stb/include/stb_image.h; sourceTree = SOURCE_ROOT; };
+		571167C8B5834EB4B94C9A72 /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/animation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = animation.cpp; path = src/animation.cpp; sourceTree = SOURCE_ROOT; };
+		5A53B907D8784E168EEFE1CA /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/camera.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = camera.h; path = src/camera.h; sourceTree = SOURCE_ROOT; };
+		5B8FA713425B42769EED319C /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/shader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = shader.h; path = src/shader.h; sourceTree = SOURCE_ROOT; };
+		61A2A1F4E5674B10886176EE /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/shader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = shader.cpp; path = src/shader.cpp; sourceTree = SOURCE_ROOT; };
+		741C232C743A4E7C9C87BA21 /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/thirdparty/glad/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = thirdparty/glad/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		775CCD7899124CB882ABE6E1 /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/animator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = animator.h; path = src/animator.h; sourceTree = SOURCE_ROOT; };
+		7D530B86C63A4EFA87FAE948 /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		80EA66A4E133476CBA6D0CD0 /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/model_animation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = model_animation.cpp; path = src/model_animation.cpp; sourceTree = SOURCE_ROOT; };
+		85FCA06793E04F599041549E /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/camera.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = camera.cpp; path = src/camera.cpp; sourceTree = SOURCE_ROOT; };
+		8DEBAE275F0B4FD5A66329FD /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/shader_m.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = shader_m.h; path = src/shader_m.h; sourceTree = SOURCE_ROOT; };
+		9E53EF16CF9D43199B6CCDBA /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/bone.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = bone.cpp; path = src/bone.cpp; sourceTree = SOURCE_ROOT; };
+		A4C699C5277540ABB2B84EEF /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/animation.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = animation.h; path = src/animation.h; sourceTree = SOURCE_ROOT; };
+		A5373865C2EF461FB2D3992C /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/thirdparty/stb/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = thirdparty/stb/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A8CDB49ABD96496588DA5458 /* skeletal_animation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = skeletal_animation; sourceTree = BUILT_PRODUCTS_DIR; };
+		A975645C33DA41B297765E3E /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/bone.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = bone.h; path = src/bone.h; sourceTree = SOURCE_ROOT; };
+		BFA7189AFC9E472C8066A16B /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/mesh.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mesh.cpp; path = src/mesh.cpp; sourceTree = SOURCE_ROOT; };
+		C362142E66D846D9A952E90E /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/thirdparty/glad/include/glad/glad.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glad.h; path = thirdparty/glad/include/glad/glad.h; sourceTree = SOURCE_ROOT; };
+		C4C8010F7AA54B69AEC1B6D1 /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/animator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = animator.cpp; path = src/animator.cpp; sourceTree = SOURCE_ROOT; };
+		CE27E3C18F5649E0B12284F7 /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/mesh.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mesh.h; path = src/mesh.h; sourceTree = SOURCE_ROOT; };
+		DEA9337903784843B525C43B /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/thirdparty/stb/src/stb_image.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stb_image.cpp; path = thirdparty/stb/src/stb_image.cpp; sourceTree = SOURCE_ROOT; };
+		EA8C148BA91B4A40A02E3ED8 /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/model_animation.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = model_animation.h; path = src/model_animation.h; sourceTree = SOURCE_ROOT; };
+		EBF7F815DE2E488EA4335C02 /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/Main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Main.cpp; path = src/Main.cpp; sourceTree = SOURCE_ROOT; };
+		ED864946ABA8455484808F85 /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/assimp_glm_helper.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = assimp_glm_helper.h; path = src/assimp_glm_helper.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		239C136EEC2E4E9D8F78C19B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43C178C567DF4336B8000264 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		927974093EAF47938274A7D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04F085D7F648473E865E75E5 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DF933C7625447C1ADAB03ED /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/thirdparty/glad/include/KHR/khrplatform.h */,
+				C362142E66D846D9A952E90E /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/thirdparty/glad/include/glad/glad.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		145FDAC95EB7472286A545E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D3E71F2188F462D9B4E4BF2 /* glad */,
+				A8CDB49ABD96496588DA5458 /* skeletal_animation */,
+				1B2FBC54F23342D99050AEA1 /* stb */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47216B8B08A9436AA202E355 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEA9337903784843B525C43B /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/thirdparty/stb/src/stb_image.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		48E42EC686DA4CFA94D7F78F /* stb */ = {
+			isa = PBXGroup;
+			children = (
+				E949995640FB4E65A980B585 /* Header Files */,
+				47216B8B08A9436AA202E355 /* Source Files */,
+				A5373865C2EF461FB2D3992C /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/thirdparty/stb/CMakeLists.txt */,
+			);
+			name = stb;
+			sourceTree = "<group>";
+		};
+		5DEFA4274BC7464DB654816B /* glad */ = {
+			isa = PBXGroup;
+			children = (
+				04F085D7F648473E865E75E5 /* Header Files */,
+				74BBD04160664D52BE0C736D /* Source Files */,
+				741C232C743A4E7C9C87BA21 /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/thirdparty/glad/CMakeLists.txt */,
+			);
+			name = glad;
+			sourceTree = "<group>";
+		};
+		74BBD04160664D52BE0C736D /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				10D57BE04F7C4511BA596A1D /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/thirdparty/glad/src/glad.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		9E37D1C7E8A44D19BA3CE04E /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBF7F815DE2E488EA4335C02 /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/Main.cpp */,
+				571167C8B5834EB4B94C9A72 /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/animation.cpp */,
+				C4C8010F7AA54B69AEC1B6D1 /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/animator.cpp */,
+				9E53EF16CF9D43199B6CCDBA /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/bone.cpp */,
+				85FCA06793E04F599041549E /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/camera.cpp */,
+				BFA7189AFC9E472C8066A16B /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/mesh.cpp */,
+				80EA66A4E133476CBA6D0CD0 /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/model_animation.cpp */,
+				61A2A1F4E5674B10886176EE /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/shader.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		B0E233B0011E431280A87BE7 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4C699C5277540ABB2B84EEF /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/animation.h */,
+				775CCD7899124CB882ABE6E1 /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/animator.h */,
+				07142134C52443AA97AC5FF2 /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/animdata.h */,
+				ED864946ABA8455484808F85 /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/assimp_glm_helper.h */,
+				A975645C33DA41B297765E3E /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/bone.h */,
+				5A53B907D8784E168EEFE1CA /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/camera.h */,
+				CE27E3C18F5649E0B12284F7 /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/mesh.h */,
+				EA8C148BA91B4A40A02E3ED8 /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/model_animation.h */,
+				5B8FA713425B42769EED319C /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/shader.h */,
+				8DEBAE275F0B4FD5A66329FD /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/shader_m.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		CC887CB2C68D4AEB88F939A0 = {
+			isa = PBXGroup;
+			children = (
+				ECB2C3D9770D439B83284421 /* ALL_BUILD */,
+				5DEFA4274BC7464DB654816B /* glad */,
+				48E42EC686DA4CFA94D7F78F /* stb */,
+				DE2CF0C5274541878CAF72F3 /* skeletal_animation */,
+				145FDAC95EB7472286A545E2 /* Products */,
+				EF3CBA061BC94431A0594032 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DE2CF0C5274541878CAF72F3 /* skeletal_animation */ = {
+			isa = PBXGroup;
+			children = (
+				B0E233B0011E431280A87BE7 /* Header Files */,
+				9E37D1C7E8A44D19BA3CE04E /* Source Files */,
+				446E2D58B40542568C74085E /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/CMakeLists.txt */,
+			);
+			name = skeletal_animation;
+			sourceTree = "<group>";
+		};
+		E6F466761CF2487EA0D449CF /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		E949995640FB4E65A980B585 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A861809C9C8497D9B735A2B /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/thirdparty/stb/include/stb_image.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		ECB2C3D9770D439B83284421 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				E6F466761CF2487EA0D449CF /* CMake Rules */,
+				7D530B86C63A4EFA87FAE948 /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		EF3CBA061BC94431A0594032 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		162ADD8363C345A0A0CE5CF7 /* stb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2CE4FCDCDA94AAD9F8CB823 /* Build configuration list for PBXNativeTarget "stb" */;
+			buildPhases = (
+				D6D85FE456884BB09C8C5182 /* Sources */,
+				239C136EEC2E4E9D8F78C19B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E4FD86AD336492AAEC134CF /* PBXTargetDependency */,
+			);
+			name = stb;
+			productName = stb;
+			productReference = 1B2FBC54F23342D99050AEA1 /* stb */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DFB68A3C8350452AA9A226B5 /* skeletal_animation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DF9BB7A8377423890B49D67 /* Build configuration list for PBXNativeTarget "skeletal_animation" */;
+			buildPhases = (
+				EBC0A26E14814D18A953A72D /* Sources */,
+				43C178C567DF4336B8000264 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6645AC3F9BE64B98AB059E64 /* PBXTargetDependency */,
+				E1241635EE1541EAA1A503F5 /* PBXTargetDependency */,
+				F30064A588DC4AB8A7C95222 /* PBXTargetDependency */,
+			);
+			name = skeletal_animation;
+			productName = skeletal_animation;
+			productReference = A8CDB49ABD96496588DA5458 /* skeletal_animation */;
+			productType = "com.apple.product-type.tool";
+		};
+		E3C99F5313AD49DA99F399CD /* glad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14F24FD60CD94BAEB5311C5D /* Build configuration list for PBXNativeTarget "glad" */;
+			buildPhases = (
+				DFCB4A01FEA945AA94F0EFED /* Sources */,
+				927974093EAF47938274A7D9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC598A47B8C64AF4B0CE3CDF /* PBXTargetDependency */,
+			);
+			name = glad;
+			productName = glad;
+			productReference = 1D3E71F2188F462D9B4E4BF2 /* glad */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0AC7C3CCFD549EF82197F32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 9814C9FC40604B5AB8D7C8FE /* Build configuration list for PBXProject "skeletal_animation" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				965892DDE7CA412A8F26C502 /* Debug */,
+				87FF894728CD4EE58D0AC5F7 /* Release */,
+				38059CF8E1144D13A9637659 /* MinSizeRel */,
+				6D4DA5947E634F4CAE7DD005 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = CC887CB2C68D4AEB88F939A0;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				31FE645C71804F99B62E88F8 /* ALL_BUILD */,
+				4394AED303574E7FBE8C1B30 /* ZERO_CHECK */,
+				E3C99F5313AD49DA99F399CD /* glad */,
+				DFB68A3C8350452AA9A226B5 /* skeletal_animation */,
+				162ADD8363C345A0A0CE5CF7 /* stb */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A6D4DAEB295482AA908F98E = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		B21CB849434A47BCBA523424 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/build/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/build
+  make -f /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/build
+  make -f /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/build
+  make -f /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/build
+  make -f /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/build/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		D0678470F1644BA3B9881FFE /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/build/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/build
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		DCCF2C465E6944C8B38C0B36 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6D85FE456884BB09C8C5182 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01FFCF0A790F49799A0C9100 /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/thirdparty/stb/src/stb_image.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFCB4A01FEA945AA94F0EFED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6415FA243B4D488A99CB1B87 /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/thirdparty/glad/src/glad.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBC0A26E14814D18A953A72D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A275F2790104E02822A151F /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/Main.cpp */,
+				89C13DE94596426A93AC5CBB /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/animation.cpp */,
+				415D4CC963A946A49A496278 /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/animator.cpp */,
+				D1082B72485943D6A8F30F5D /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/bone.cpp */,
+				B4EF3DE008144D8A9928120D /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/camera.cpp */,
+				2D0E444CE0124585A33FC955 /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/mesh.cpp */,
+				1D435853054445E5846F8A90 /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/model_animation.cpp */,
+				885C17CB9CC341A0A2433070 /* /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src/shader.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B70E7C9715745059EB0567D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4394AED303574E7FBE8C1B30 /* ZERO_CHECK */;
+			targetProxy = 8A119EC7347E49CF9AD95A1F /* PBXContainerItemProxy */;
+		};
+		6645AC3F9BE64B98AB059E64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3C99F5313AD49DA99F399CD /* glad */;
+			targetProxy = 8AB874EF4152441EA5D1B724 /* PBXContainerItemProxy */;
+		};
+		8E4FD86AD336492AAEC134CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4394AED303574E7FBE8C1B30 /* ZERO_CHECK */;
+			targetProxy = 45B68643EEF84192923D7900 /* PBXContainerItemProxy */;
+		};
+		B02BDDD596CB4564A774EC89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 162ADD8363C345A0A0CE5CF7 /* stb */;
+			targetProxy = E3EE218FD7F04C12AA36C269 /* PBXContainerItemProxy */;
+		};
+		CF0ADC3C19CD467AB0946280 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFB68A3C8350452AA9A226B5 /* skeletal_animation */;
+			targetProxy = DE5E02164C38446DB9B16E4E /* PBXContainerItemProxy */;
+		};
+		E1241635EE1541EAA1A503F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 162ADD8363C345A0A0CE5CF7 /* stb */;
+			targetProxy = DBF020A5C1B744D9BC9E056E /* PBXContainerItemProxy */;
+		};
+		EC598A47B8C64AF4B0CE3CDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4394AED303574E7FBE8C1B30 /* ZERO_CHECK */;
+			targetProxy = 9B3E00C595954D179DFB8574 /* PBXContainerItemProxy */;
+		};
+		F30064A588DC4AB8A7C95222 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4394AED303574E7FBE8C1B30 /* ZERO_CHECK */;
+			targetProxy = E7F42716358A44D1AFB927ED /* PBXContainerItemProxy */;
+		};
+		F89250355B5B4B139CC3AFF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3C99F5313AD49DA99F399CD /* glad */;
+			targetProxy = 8B7347E8A72842E2A16DB369 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01C1567E421A4063BDDE0DF6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/thirdparty/stb/include,/Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/thirdparty/stb/src);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = stb;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/build/thirdparty/stb;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		0458706D0BB2453CAE98FE97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/thirdparty/glad/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glad;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/build/thirdparty/glad;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		0B3D69C645FF400392DAA821 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		1ED6EF73BF404577A65D773E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk;
+				SYMROOT = /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/build/build;
+			};
+			name = Release;
+		};
+		2118A7945C504F0FAFEC62F0 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk;
+				SYMROOT = /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/build/build;
+			};
+			name = RelWithDebInfo;
+		};
+		2C1EE87DE1FD4526A83E127D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/thirdparty/glad/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glad;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/build/thirdparty/glad;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		2EEAB01E5A6B41F19F9F12F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/thirdparty/stb/include,/Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/thirdparty/stb/src);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = stb;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/build/thirdparty/stb;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		3C97390619504D7FB0BDA2DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/thirdparty/stb/include,/Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/thirdparty/stb/src);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = stb;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/build/thirdparty/stb;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		404B3E8F92A542B2A6B93CF6 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/build/bin/MinSizeRel;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLM_FORCE_SILENT_WARNINGS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src,/usr/local/lib,/Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/thirdparty/glad/include,/Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/thirdparty/stb/include);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = ("$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-F /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks","-framework OpenGL",/Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/build/thirdparty/glad/MinSizeRel/libglad.a,/usr/local/lib/libglfw.3.3.dylib,/usr/local/lib/libassimp.5.1.0.dylib,/Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/build/thirdparty/stb/MinSizeRel/libstb.a,/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/lib/libz.tbd);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = skeletal_animation;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/build/src;
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5630D1CAF1A8434784D73ED4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5D2042906F9F469194F61BC9 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk;
+				SYMROOT = /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/build/build;
+			};
+			name = MinSizeRel;
+		};
+		69657B84BB074386B9DAE830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk;
+				SYMROOT = /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/build/build;
+			};
+			name = Debug;
+		};
+		7B2847F966004CBDB61E1DFA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/build/bin/RelWithDebInfo;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLM_FORCE_SILENT_WARNINGS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src,/usr/local/lib,/Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/thirdparty/glad/include,/Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/thirdparty/stb/include);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = ("$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-F /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks","-framework OpenGL",/Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/build/thirdparty/glad/RelWithDebInfo/libglad.a,/usr/local/lib/libglfw.3.3.dylib,/usr/local/lib/libassimp.5.1.0.dylib,/Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/build/thirdparty/stb/RelWithDebInfo/libstb.a,/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/lib/libz.tbd);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = skeletal_animation;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/build/src;
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		9B779954E21A4164B4358266 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A290D219E5AE4E41AA4EDFC7 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/thirdparty/stb/include,/Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/thirdparty/stb/src);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = stb;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/build/thirdparty/stb;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		A360F25B38194DB0B2C5EB8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/thirdparty/glad/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glad;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/build/thirdparty/glad;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		AF562E1E934A4B7C813B08D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		CF78AA8FFEED460DA166F8D3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/thirdparty/glad/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glad;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/build/thirdparty/glad;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		F2B37D0581D348BF8D96DE05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/build/bin/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLM_FORCE_SILENT_WARNINGS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src,/usr/local/lib,/Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/thirdparty/glad/include,/Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/thirdparty/stb/include);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = ("$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "   -pedantic -W -Wall -Wdouble-promotion -Wextra -Wfloat-equal '-Wformat=2' -Wimplicit-fallthrough -Winit-self -Winline -Wno-long-long -Wpointer-arith -Wshadow -Wsign-promo -Wundef -Wno-attributes '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-F /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks","-framework OpenGL",/Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/build/thirdparty/glad/Debug/libglad.a,/usr/local/lib/libglfw.3.3.dylib,/usr/local/lib/libassimp.5.1.0.dylib,/Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/build/thirdparty/stb/Debug/libstb.a,/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/lib/libz.tbd);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = skeletal_animation;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/build/src;
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		F411A9CF11394CDEA2443B75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/build/bin/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLM_FORCE_SILENT_WARNINGS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/src,/usr/local/lib,/Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/thirdparty/glad/include,/Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/thirdparty/stb/include);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = ("$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG     '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-F /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks","-framework OpenGL",/Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/build/thirdparty/glad/Release/libglad.a,/usr/local/lib/libglfw.3.3.dylib,/usr/local/lib/libassimp.5.1.0.dylib,/Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/build/thirdparty/stb/Release/libstb.a,/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/lib/libz.tbd);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = skeletal_animation;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/build/src;
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F530C7A453E344D2A894FB4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		F65C26BA06E94EA091B84B94 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		F6C648E8580C4D9293EF7678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F8D04FB7FD9F4CD7AAC1B356 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14F24FD60CD94BAEB5311C5D /* Build configuration list for PBXNativeTarget "glad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0458706D0BB2453CAE98FE97 /* Debug */,
+				A360F25B38194DB0B2C5EB8A /* Release */,
+				2C1EE87DE1FD4526A83E127D /* MinSizeRel */,
+				CF78AA8FFEED460DA166F8D3 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2BBB2D37A8EB45E0A574250D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B779954E21A4164B4358266 /* Debug */,
+				F6C648E8580C4D9293EF7678 /* Release */,
+				0B3D69C645FF400392DAA821 /* MinSizeRel */,
+				F65C26BA06E94EA091B84B94 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6DF9BB7A8377423890B49D67 /* Build configuration list for PBXNativeTarget "skeletal_animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2B37D0581D348BF8D96DE05 /* Debug */,
+				F411A9CF11394CDEA2443B75 /* Release */,
+				404B3E8F92A542B2A6B93CF6 /* MinSizeRel */,
+				7B2847F966004CBDB61E1DFA /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9814C9FC40604B5AB8D7C8FE /* Build configuration list for PBXProject "skeletal_animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69657B84BB074386B9DAE830 /* Debug */,
+				1ED6EF73BF404577A65D773E /* Release */,
+				5D2042906F9F469194F61BC9 /* MinSizeRel */,
+				2118A7945C504F0FAFEC62F0 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A2CE4FCDCDA94AAD9F8CB823 /* Build configuration list for PBXNativeTarget "stb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C97390619504D7FB0BDA2DC /* Debug */,
+				2EEAB01E5A6B41F19F9F12F9 /* Release */,
+				A290D219E5AE4E41AA4EDFC7 /* MinSizeRel */,
+				01C1567E421A4063BDDE0DF6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AA7D7BD537FB4F358C710DC4 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F530C7A453E344D2A894FB4D /* Debug */,
+				AF562E1E934A4B7C813B08D8 /* Release */,
+				5630D1CAF1A8434784D73ED4 /* MinSizeRel */,
+				F8D04FB7FD9F4CD7AAC1B356 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0AC7C3CCFD549EF82197F32 /* Project object */;
+}

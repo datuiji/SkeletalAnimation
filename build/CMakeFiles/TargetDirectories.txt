@@ -1,0 +1,5 @@
+/Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/build/CMakeFiles/ALL_BUILD.dir
+/Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/build/CMakeFiles/ZERO_CHECK.dir
+/Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/build/thirdparty/glad/CMakeFiles/glad.dir
+/Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/build/thirdparty/stb/CMakeFiles/stb.dir
+/Users/tuijida/Desktop/OpenGL_Course/Hw3/SkeletalAnimation/build/src/CMakeFiles/skeletal_animation.dir
